@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding: 40px;
   align-items: center;
+  margin-bottom: 15px;
 }
 .header_title{
   font-size: 32px;
