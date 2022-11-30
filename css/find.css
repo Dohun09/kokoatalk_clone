@@ -1,0 +1,73 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: var(--main-border);
+}
+
+.find-icons_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.find-icons_icon i {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.recommend-friends{
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+}
+.recommend-friends-main{
+  display: flex;
+  justify-content: center;
+  margin-top  : 60px;
+  padding-bottom: 90px;
+  border-bottom: var(--main-border);
+}
+
+.open-chat-title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.open-chat-main{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--main-border);
+  
+}
+.open-chat-main :nth-child(2){
+  color: rgba(0, 0, 0, 0.3);
+  padding-top: 5px;
+  font-size: small;
+}
+
+.open-chat-main :nth-child(4){
+  color: rgba(0, 0, 0, 0.3);
+  padding-top: 5px;
+  font-size: small;
+}
+.working{
+  color: palevioletred;
+  font-size: small;
+}
+.openchat-profile {
+  width: 19px;
+  height: 19px;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+.openchat-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
