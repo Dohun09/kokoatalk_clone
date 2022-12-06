@@ -7,6 +7,9 @@
   justify-content: center;
 
 }
+.alt-header-column{
+  width: 33%;
+}
 .alt-header-title{
   font-size: 32px;
   font-weight: 600;
@@ -17,4 +20,12 @@
 }
 .alt-header_column:last-child{
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-header_column:nth-child(2){
+  text-align: center;
+}
+.alt-header_column span:last-child{
+  margin-left: 20px;
 }
