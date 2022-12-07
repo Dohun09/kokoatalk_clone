@@ -14,9 +14,19 @@
   justify-content: space-between;
   
 }
+
+@keyframes appearBtn {
+  from{
+    transform: translateY(50px);
+  }
+  to{
+    transform: none;
+  }
+}
 .nav_li{
   color: #2e363e;
   position: relative;
+  animation: appearBtn 0.5s ease ease-in-out;
 }
 
 .status-bar{
@@ -24,10 +34,24 @@
   top: 0;
   width: 100%;
 }
+
+@keyframes notificationAnimation{
+ 0%{
+  transform: none;
+ }
+ 50%{
+  transform: translateY(-5px) rotateY(180deg);
+ }
+ 100%{
+  transform: none;
+ } 
+}
+
 .nav_notification{
 
   position: absolute;
   left: 20px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 .nav_dot{
   background-color: tomato;
@@ -38,3 +62,4 @@
   position: absolute;
   left: 30px; 
 }
+
