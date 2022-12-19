@@ -15,14 +15,7 @@
   
 }
 
-@keyframes appearBtn {
-  from{
-    transform: translateY(50px);
-  }
-  to{
-    transform: none;
-  }
-}
+
 .nav_li{
   color: #2e363e;
   position: relative;
@@ -63,3 +56,28 @@
   left: 30px; 
 }
 
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav_li {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: appearBtnAnimation 0.3s ease-in-out forwards;
+}
+
+.nav_li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.nav_li:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.nav_li:last-child {
+  animation-delay: 0.8s;
+}
